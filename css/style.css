@@ -6,6 +6,8 @@ body{
 .container {
   position: relative;
   height: auto;
+	margin: 0 auto;
+  display: block;
 }
 #squareFour {
   margin:auto;
@@ -61,7 +63,9 @@ body{
   text-decoration: none;
   transition-duration: 0.2s;
   cursor: pointer;
-  margin-top:20px;
+	margin: 0 auto;
+	display: block;
+  margin-top:40px;
 }
 
 .button:hover {
