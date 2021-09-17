@@ -5,14 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="js/main.js">
+	<link rel="stylesheet" href="css/style.css">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>Random Albers</title>
 </head>
 
 <body>
-
 	<div class="container">
 		<div id="squareFour">
 			<div id="squareThree">
@@ -24,21 +22,7 @@
 		</div>
 		<button id="b1" class="button" onclick="randomize()">Create!</button>
 	</div>
-	<script>
-		function randomize() {
-			document.getElementById('squareFour').style.background = randomColors();
-			document.getElementById('squareThree').style.background = randomColors();
-			document.getElementById('squareTwo').style.background = randomColors();
-			document.getElementById('squareOne').style.background = randomColors();
-		}
-
-		// random colors - taken from here:
-		// http://www.paulirish.com/2009/random-hex-color-code-snippets/
-
-		function randomColors() {
-			return '#' + Math.floor(Math.random() * 16777215).toString(16);
-		}
-	</script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
