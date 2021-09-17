@@ -1,0 +1,75 @@
+body{
+  background-color:powderblue;
+  width: 80%;
+  margin: auto;
+}
+.container {
+  position: relative;
+  height: auto;
+}
+#squareFour {
+  margin:auto;
+  margin-top:20px;
+  width: 550px;
+  height: auto;
+  padding-top: 75px;
+}
+#squareFour:after{
+  content: "";
+  display: block;
+  padding-bottom:15px;
+}
+#squareThree {  
+  margin: auto;
+  width: 450px;
+  height: auto;
+  padding-top: 75px;
+}
+#squareThree:after{
+  content: "";
+  display: block;
+  padding-bottom:15px;
+}
+#squareTwo {  
+  margin: auto;
+  width: 350px;
+  height: auto;
+  padding-top: 75px;
+}
+#squareTwo:after{
+  content: "";
+  display: block;
+  padding-bottom:15px;
+}
+#squareOne {  
+  margin: auto;
+  width: 250px;
+  height: 150px;
+  padding-top: 75px;
+}
+#squareOne:after{
+  content: "";
+  display: block;
+  padding-bottom:15px;
+}
+.button {
+  background-color: #00d14d;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.button:hover {
+  background-color: green;
+  color: white;
+}
+
+.button:active {
+  background-color: blue;
+  color: white;
+}
