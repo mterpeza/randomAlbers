@@ -1,3 +1,6 @@
+/* window.onload = function () {
+	document.getElementById('b1').
+} */
 function randomize() {
 	document.getElementById('squareFour').style.background = randomColors();
 	document.getElementById('squareThree').style.background = randomColors();
